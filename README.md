@@ -1,2 +1,2 @@
 # CSC-221
-Taylor J.Brown
+Taylor J. Brown
