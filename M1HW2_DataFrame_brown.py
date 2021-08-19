@@ -17,8 +17,9 @@
 import pandas as pd
 
 def main():
-    # Step A
     temps = {'Maxine': [98,89,72], 'James': [90,92,103], 'Amanda': [89,81,100]}
+    
+    # Step A
     temperatures = pd.DataFrame(temps)
     print('Step A: Temperature DataFrame')
     print(temperatures, '\n')
