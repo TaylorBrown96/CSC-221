@@ -34,14 +34,6 @@ class RustySword(Weapon):
         self.value = 50
 
 
-class Crossbow(Weapon):
-    def __init__(self):
-        self.name = "Crossbow"
-        self.description = "A crossbow to put arrows into enemies."
-        self.damage = 70
-        self.value = 100
-
-
 class Consumable:
     def __init__(self):
         raise NotImplementedError("Do not create raw Consumable objects.")
