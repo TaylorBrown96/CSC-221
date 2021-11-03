@@ -68,3 +68,5 @@ class Key(PuzzlePiece):
     def __init__(self):
         self.name = "Key"
         self.value = 10
+
+        
